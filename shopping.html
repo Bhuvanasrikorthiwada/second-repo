@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .search-bar {
+            padding: 6px 10px;
+            border: 20;
+            border-radius: 5px;
+            width: 70rem;
+        }
+
+        .product-box {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+        }
+
+        .product-card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+            transition: 0.3s;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .product-card:hover {
+            transform: translate(-5px);
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .product-card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            background: #ff9800;
+            color: #fff;
+            padding: 6px 12px;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: 0.3s;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" placeholder="search Products...            " class="search-bar">
+    <br><br>
+    <div class="product-box">
+        <div class="product-card">
+            <img src="python img.jpg" alt="product 1" />
+            <h3>Python Book</h3>
+            <p>$200</p>
+            <a href="" class="btn">View</a>
+        </div>
+        <div class="product-card">
+            <img src="thermodynamics img.jpeg" alt="product 1" />
+            <h3>Thermodynamics</h3>
+            <p>$220</p>
+            <a href="" class="btn">View</a>
+        </div>
+        <div class="product-card">
+            <img src="VA img.jpeg" alt="product 1" />
+            <h3>Vector Algebra</h3>
+            <p>$300</p>
+            <a href="" class="btn">View</a>
+        </div>
+        <div class="product-card">
+            <img src="c img.jpeg" alt="product 1" />
+            <h3>C language</h3>
+            <p>$27000</p>
+            <a href="" class="btn">View</a>
+        </div>
+        <div class="product-card">
+            <img src="c++ img.jpeg" alt="product 1" />
+            <h3>C++ language</h3>
+            <p>$310</p>
+            <a href="" class="btn">View</a>
+        </div>
+        <div class="product-card">
+            <img src="smart phn img.jpeg" alt="product 1" />
+            <h3>Smart phone</h3>
+            <p>$500</p>
+            <a href="" class="btn">View</a>
+        </div>
+        <div class="product-card">
+            <img src="wireless eb img.jpeg" alt="product 1" />
+            <h3>Wireless earbuds</h3>
+            <p>$400</p>
+            <a href="" class="btn">View</a>
+        </div>
+        <div class="product-card">
+            <img src="hbag img.jpeg" alt="product 1" />
+            <h3>Hand bag</h3>
+            <p>$200</p>
+            <a href="" class="btn">View</a>
+        </div>
+        <div class="product-card">
+            <img src="bracelet.jpeg" alt="product 1" />
+            <h3>Bracelet</h3>
+            <p>$180</p>
+            <a href="" class="btn">View</a>
+        </div>
+    </div>
+</body>
+
+</html>
